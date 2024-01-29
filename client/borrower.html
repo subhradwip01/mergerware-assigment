@@ -1,0 +1,13 @@
+<template name="borrower">
+    <h2>Borrower Dashboard</h2>
+    <form>
+      <input type="number" name="amount" placeholder="Loan Amount"><br>
+      <button type="submit">Request Loan</button>
+    </form>
+    <ul>
+      {{#each loans}}
+        <li>{{amount}} - {{status}}</li>
+      {{/each}}
+    </ul>
+  </template>
+  

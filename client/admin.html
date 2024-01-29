@@ -1,0 +1,9 @@
+<template name="admin">
+    <h2>Admin Dashboard</h2>
+    <ul>
+      {{#each allTransactions}}
+        <li>{{amount}} - {{status}}</li>
+      {{/each}}
+    </ul>
+  </template>
+  

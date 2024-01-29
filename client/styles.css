@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  select,
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .confirm-payment {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .confirm-payment:hover {
+    background-color: #218838;
+  }
+  
+  /* Dashboard Styles */
+  .dashboard {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .dashboard h2 {
+    margin-top: 0;
+  }
+  
+  .dashboard form {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard ul {
+    padding-left: 20px;
+  }
+  
+  .dashboard li {
+    margin-bottom: 5px;
+  }
+  
