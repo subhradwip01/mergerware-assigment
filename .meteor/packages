@@ -26,3 +26,4 @@ blaze-hot               # Update files using Blaze's API with HMR
 accounts-password
 alanning:roles
 aldeed:collection2
+iron:router

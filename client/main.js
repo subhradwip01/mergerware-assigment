@@ -3,10 +3,15 @@ import { Accounts } from 'meteor/accounts-base';
 import { Roles } from 'meteor/alanning:roles';
 import { Loans } from '../collections/loans';
 
-import './register.html';
-import './borrower.html';
-import './lender.html';
-import './admin.html'
+
+import './main.html'
+import './templates/layout.html'
+import './templates/register.html';
+import './templates/login.html'
+import './templates/borrower.html';
+import './templates/lender.html';
+import './templates/admin.html'
+import './helpers/router' 
 
 Template.register.events({
   'submit form': function(event) {

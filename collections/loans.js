@@ -17,4 +17,3 @@ Loans.attachSchema(new SimpleSchema({
     defaultValue: 'requested'
   }
 }));
-console.log(Loans);
